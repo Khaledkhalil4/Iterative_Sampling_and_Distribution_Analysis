@@ -16,7 +16,7 @@ At each round:
 4. The new distribution is visualized, often displaying a near-normal shape.
 
 Over multiple rounds, this iterative sampling process helps in studying **probability drift, stability, and convergence**.
-
+ 
 ---
 
 ## Project Structure
