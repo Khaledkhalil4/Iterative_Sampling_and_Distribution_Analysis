@@ -1,4 +1,7 @@
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
+
 
 
 def plot_counts(counts, bins=50, show=True, filename=None):
