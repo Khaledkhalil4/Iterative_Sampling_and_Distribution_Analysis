@@ -1,16 +1,17 @@
-import numpy as np
+import matplotlib.pyplot as plt
 
 
-def run_simulation(n, M, R):
-    # Start with a uniform distribution
-    p = np.ones(n) / n
-    distributions = [p.copy()]
+def plot_counts(counts, bins=50, show=True, filename=None):
 
-    for _ in range(R):
-        # Draw a multinomial sample: efficient even for large n
-        counts = np.random.multinomial(M, p)
-        # Update distribution based on counts
-        p = counts / M
-        distributions.append(p.copy())
+    plt.figure(figsize=(10, 6))
+    plt.hist(counts, bins=bins, edgecolor='black')
+    plt.title('Histogram of Strand Counts in Final Round')
+    plt.xlabel('Number of occurrences')
+    plt.ylabel('Number of strands')
 
-    return distributions, counts
+    if filename:
+        plt.savefig(filename)
+    if show:
+        plt.show()
+    else:
+        plt.close()
