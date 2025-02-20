@@ -101,13 +101,14 @@ plot_counts(final_counts)
 
 ---
 
+
 ## Examples
 
 ### **Single Round Analysis:**
 A single multinomial draw distributes **M** counts among **n** strands, resulting in a histogram that resembles a normal distribution for large **M**.
 
 ### **Multiple Rounds Analysis:**
-- **Stable Case:** If **M** is large (e.g., 10n) and **n** is moderate (e.g., 10⁶), the distribution remains approximately uniform over iterations.
+- **Stable Case:** If **M** is large (e.g., 40n) and **n** is moderate (e.g., 10⁶), the distribution remains approximately uniform over iterations.
 - **Drift Case:** If **M** is small (e.g., 3n), random fluctuations cause some strands to dominate after several rounds.
 
 Each case helps illustrate how probability distributions shift over time due to iterative sampling.
