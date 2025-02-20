@@ -74,7 +74,7 @@ python src/main.py --num_strands 100000 --scaling_factor 10 --rounds 20 --plot T
 |-----------------|--------------------------------------------|---------|
 | `--num_strands` | Number of strands (n).                     | 100000  |
 | `--scaling_factor` | Scaling factor (c) for M = c * n, 3 ≤ c ≤ 50 | 10      |
-| `--rounds`      | Number of sampling rounds (R).             | 20      |
+| `--rounds`      | Number of sampling rounds (R).             | 3       |
 | `--plot`        | Whether to generate distribution plots.     | True    |
 
 ### 2. Running in a Python Script:
