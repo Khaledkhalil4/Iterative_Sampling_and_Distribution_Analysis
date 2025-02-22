@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib
 
-# Use TkAgg or another interactive backend if needed
+
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from scipy.stats import norm
