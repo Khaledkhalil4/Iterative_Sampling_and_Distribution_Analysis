@@ -8,9 +8,9 @@ def main():
     )
     parser.add_argument('--num_strands', type=int, default=100000,
                         help='Number of strands (n).')
-    parser.add_argument('--scaling_factor', type=int, default=1,
+    parser.add_argument('--scaling_factor', type=int, default=10,
                         help='Scaling factor (c) for M = c * n, must be in range 3 ≤ c ≤ 50')
-    parser.add_argument('--rounds', type=int, default=1,
+    parser.add_argument('--rounds', type=int, default=3,
                         help='Number of sampling rounds (R).')
     parser.add_argument('--plot', type=lambda x: (str(x).lower() == 'true'), default=True,
                         help='Whether to generate distribution plots (True/False).')

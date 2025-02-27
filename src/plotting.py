@@ -8,7 +8,7 @@ def plot_counts(counts, bins=100, show=True, filename=None):
     """
     Plot a histogram of the final accumulated counts with an overlay of a fitted normal curve.
 
-     Parameters:
+    Parameters:
       counts (numpy array): Accumulated counts for each strand.
       bins (int): Number of bins for the histogram.
       show (bool): If True, display the plot.
