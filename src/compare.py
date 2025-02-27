@@ -34,7 +34,7 @@ def main():
       - An overlay of the fitted normal distribution scaled to the histogram.
       - An annotation with the number of strands that never got any counts.
     """
-    n = 100000  # Number of strands
+    n = 100000  # Number of strands can change if u want!!!
     scaling_factors = [3, 10, 25, 50]
     round_values = [5, 10, 15, 20]
     R_max = max(round_values)
